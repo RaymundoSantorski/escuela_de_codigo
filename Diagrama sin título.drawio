@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T21:46:07.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="21.6.7" etag="f783qLQ_R5HQQmkItFUl" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T23:38:44.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="t2xAJPaLLQhbacPJ9pBG" version="21.6.7" type="github">
   <diagram name="Página-1" id="TW1vLApEU3wofpZEusAC">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2S88zEkaTAvGJdugL4KI-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2S88zEkaTAvGJdugL4KI-2" target="2S88zEkaTAvGJdugL4KI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2S88zEkaTAvGJdugL4KI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2S88zEkaTAvGJdugL4KI-2" target="2S88zEkaTAvGJdugL4KI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2S88zEkaTAvGJdugL4KI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2S88zEkaTAvGJdugL4KI-2" target="2S88zEkaTAvGJdugL4KI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2S88zEkaTAvGJdugL4KI-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Gestores de Bases de Datos&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="218" y="400" width="294" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2S88zEkaTAvGJdugL4KI-3" value="MySQL&lt;br&gt;- Es el más usado en aplicaciones de software libre&lt;br&gt;&lt;br&gt;Ventajas:&lt;br&gt;- Su facilidad de uso&lt;br&gt;- Gran rendimiento&lt;br&gt;- Fácil instalación y configuración&lt;br&gt;- Multiplataforma&lt;br&gt;&lt;br&gt;Desventajas:&lt;br&gt;- Escalabilidad (no trabaja muy bien con bases de datos demasiado grandes)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="330" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2S88zEkaTAvGJdugL4KI-5" value="MariaDB&lt;br&gt;Es una derivación de MySQL, incluye la mayoría de sus características e incorpora algunas otras&lt;br&gt;&lt;br&gt;Ventajas:&lt;br&gt;- Open Source&lt;br&gt;- Compatibilidad con MySQL&lt;br&gt;- Gran escalabilidad&lt;br&gt;- Seguridad y Rapidez en transacciones&lt;br&gt;- Extensiones&lt;br&gt;- Características para su aplicación en Bases de Datos NoSQL&lt;br&gt;&lt;br&gt;Desventajas:&lt;br&gt;- Algunas incompatibilidades al migrar entre MariaDB y MySQL&lt;br&gt;- Atrasos en liberación de versiones estables" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2S88zEkaTAvGJdugL4KI-7" value="SQLite&lt;br&gt;Se utiliza en muchísimas aplicaciones hoy en día&lt;br&gt;&lt;br&gt;Ventajas:&lt;br&gt;- Open Source&lt;br&gt;- Consultas eficientes&lt;br&gt;- Ocupa muy poca memoria&lt;br&gt;- Muy buena estabilidad&lt;br&gt;- Portabilidad&amp;nbsp;&lt;br&gt;- Buen rendimiento&lt;br&gt;&lt;br&gt;Desventajas:&lt;br&gt;- Escalabilidad (No soporta bases de datos muy grandes)&lt;br&gt;- Muy limitada en cuanto a funciones y herramientas&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="153" y="560" width="424" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
