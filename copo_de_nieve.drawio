@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T06:31:20.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="21.6.7" etag="MS3oGmo9NN7prmG42KQm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T06:48:23.643Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="8KmkQ7Gl_MRVsGWjWvUB" version="21.6.7" type="github">
   <diagram name="Página-1" id="fEbN7JVaxCm0Wh4aAcM7">
-    <mxGraphModel>
+    <mxGraphModel dx="515" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="37.5" y="250" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-5" value="" style="group" vertex="1" connectable="0" parent="IkVMxnJaaJ7MoMAmjsA5-3">
+          <mxGeometry width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-1" value="Subcatwgoria" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;container=1;" vertex="1" parent="IkVMxnJaaJ7MoMAmjsA5-5">
+          <mxGeometry width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-2" value="(PK) id_subcategoria&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;(FK) id_categoria&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;nombre_subcategoria&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;" vertex="1" parent="IkVMxnJaaJ7MoMAmjsA5-5">
+          <mxGeometry y="40" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="60" width="145" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-6" value="Categoria" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="IkVMxnJaaJ7MoMAmjsA5-8">
+          <mxGeometry width="145.00000000000003" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-7" value="(PK) id_categoria&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;nombre_categoria&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;" vertex="1" parent="IkVMxnJaaJ7MoMAmjsA5-8">
+          <mxGeometry y="33" width="145.00000000000003" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IkVMxnJaaJ7MoMAmjsA5-1" target="IkVMxnJaaJ7MoMAmjsA5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="270" y="50" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-11" value="Producto" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=top;" vertex="1" parent="IkVMxnJaaJ7MoMAmjsA5-13">
+          <mxGeometry width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-12" value="(PK) id_producto&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;(FK) id_subcategoria&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;nombre&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;descripcion&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;peso&lt;br/&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="IkVMxnJaaJ7MoMAmjsA5-13">
+          <mxGeometry y="34" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IkVMxnJaaJ7MoMAmjsA5-7" target="IkVMxnJaaJ7MoMAmjsA5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IkVMxnJaaJ7MoMAmjsA5-12" target="IkVMxnJaaJ7MoMAmjsA5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="360" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-17" value="" style="group" vertex="1" connectable="0" parent="IkVMxnJaaJ7MoMAmjsA5-22">
+          <mxGeometry width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-16" value="(PK) id_venta&lt;br&gt;&lt;br&gt;(FK) id_producto&lt;br&gt;(FK) id_tienda&lt;br&gt;(FK) id_cliente&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;cantidad&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;subtotal&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;descuento&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;total&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="IkVMxnJaaJ7MoMAmjsA5-17">
+          <mxGeometry y="30" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IkVMxnJaaJ7MoMAmjsA5-15" value="Ventas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=top;" vertex="1" parent="IkVMxnJaaJ7MoMAmjsA5-22">
+          <mxGeometry width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
