@@ -1,9 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T23:53:32.576Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="21.6.7" etag="pU1JqpSbMjI3Y_TA3eHE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T00:01:44.393Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="gIoWOk8_gA8rOi0co9J-" version="21.6.7" type="github">
   <diagram name="Página-1" id="VQ71YgA7P24MXY2mCyUc">
-    <mxGraphModel>
+    <mxGraphModel dx="610" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Y85TwztlTd6jqjvZ9DLH-1" value="Producto" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y85TwztlTd6jqjvZ9DLH-2" value="(PK) id_producto&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nombre&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;descripcion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y85TwztlTd6jqjvZ9DLH-3" value="Tienda" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y85TwztlTd6jqjvZ9DLH-4" value="(PK) id_tienda&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;nombre&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;telefono&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;calle&lt;br/&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;numero&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;pais&lt;/span&gt;&lt;br/&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y85TwztlTd6jqjvZ9DLH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y85TwztlTd6jqjvZ9DLH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y85TwztlTd6jqjvZ9DLH-5" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="460" y="20" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y85TwztlTd6jqjvZ9DLH-6" value="(PK) id_cliente&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;nombre&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;apellido1&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;apellido2&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;edad&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;calle&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;numero&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;colonia&lt;br/&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;código_postal&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="50" width="140" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
